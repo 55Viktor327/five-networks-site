@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/five_networks_dev
+    username: fn_app
+    password: change_me
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    show-sql: true
+
+app:
+  storage:
+    type: local
+    local:
+      base-path: ./uploads
