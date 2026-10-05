@@ -24,6 +24,7 @@ dist/
 .classpath
 .factorypath
 
+
 # ---------- OS ----------
 .DS_Store
 Thumbs.db
@@ -45,3 +46,5 @@ uploads/
 *.keystore
 application-local.yml
 application-secret.yml
+
+backend/Техническое задание.md
